@@ -35,7 +35,9 @@ copy .env.example .env
 FORM_BUILDER_API_KEY=your_api_key_here
 ```
 5. Configure your web server to point to the public directory.
-Set up your forms.app webhook to point to your application's webhook URL:
+ - Navigate to the Settings of the form you just created.
+ - Look for the Webhook section. This is typically found under integration or serach for webhook.
+ - Set up your forms.app webhook to point to your application's webhook URL:
 ```bash
 https://yourdomain.com/webhook
 ```
