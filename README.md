@@ -31,9 +31,13 @@ composer install
 copy .env.example .env
 ```
 4. Add your 123 Form Builder API key to the `.env` file:
+
 ```bash
 FORM_BUILDER_API_KEY=your_api_key_here
 ```
+*** To find API key of 123 Form Builder ***
+- Navigate to 123 form builder's developer center.
+- Login with your username, email, password and passhash to complete Authentication and get your API key.
 5. Configure your web server to point to the public directory.
  - Navigate to the Settings of the form you just created.
  - Look for the Webhook section. This is typically found under integration or serach for webhook.
